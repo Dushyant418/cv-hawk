@@ -7,6 +7,15 @@
     --fs-3xl: 52px;
     --fs-24: 24px;
 
+    /* color */
+    --col-org: #F36A3E;
+    --col-white: #ffffff;
+    --col-black: #000000;
+    --col-lgt-pink: #F9F9F9;
+    --white: #E2E2E2;
+    --wht2: #E6E5E5;
+    --pink: #FAC3B2;
+    --gray: #383838;
 
     /* /---------- line-height---------/ */
     --lh-18-: 18.96px;
@@ -16,6 +25,8 @@
     --lh-28-: 28.44px;
     --lh-47-: 47.4px;
     --lh-61-: 61px;
+    --blk: #00000001;
+    --gradient: linear-gradient(#ffff 0, #ffff 50%, #000 50%, #000 100%);
 
     /* / -----------line-height--------/ */
 
@@ -97,6 +108,7 @@
     .fs-24 {
         font-size: var(--fs-24);
     }
+
 }
 
 @media (max-width:768px) {
